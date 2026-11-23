@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Musical Instruments</title>
+
+        <style>
+            body {
+                background-color: lavender;
+                text-align: center;
+            }
+
+            h1 {
+                color: purple;
+                text-shadow: 3px 3px 5px pink;
+            }
+
+            h2 {
+                color: darkblue;
+            }
+
+            .festival {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 25px;
+                padding: 20px;
+            }
+
+            .artist {
+                width: 170px;
+                padding: 20px;
+                background-color: lightpink;
+                border: 3px solid purple;
+                border-radius: 20px;
+                box-shadow: 5px 5px 10px grey;
+            }
+
+            .artist img {
+                width: 180px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .artist h2 {
+                color: darkmagenta;
+            }
+
+            .artist p {
+                color: darkblue;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Rainbow Beats Festival</h1>
+        <p>Welcome to the coolest Music Festival!</p>
+
+        <h2>Meet our Performers</h2>
+
+        <div class="festival">
+
+            <div class="artist">
+                <img src="Guitar.png">
+                <h2>Rocky Star</h2>
+                <p>Rock Music</p>
+                <p>5:00 p.m.</p>
+            </div>
+
+            <div class="artist">
+                <img src="Drums.png">
+                <h2>Beat Master</h2>
+                <p>Drum Show</p>
+                <p>6:00 p.m.</p>
+            </div>
+        </div>
+    </body>
+</html>
