@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Treasure Hunt Time</title>
+
+        <style>
+            body {
+                background: linear-gradient(lightblue, lightyellow);
+                text-align: center;
+                min-height: 100vh;
+            }
+
+            h1 {
+                color: darkblue;
+            }
+
+            .treasure {
+                width: 250px;
+                padding: 20px;
+                margin: 50px auto;
+                background-color: lightyellow;
+                border: 4px solid goldenrod;
+                border-radius: 20px;
+                transition: 0.5s;
+            }
+
+            .treasure img {
+                width: 200px;
+                height: 180px;
+                object-fit: contain;
+            }
+
+            .treasure:hover {
+                background-color: gold;
+                transform: scale(1.1);
+            }
+            
+            .treasure:hover img {
+                content: url("Treasure Chest (opened).png");
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Magic Treasure Chest</h1>
+        <p>Move your mouse over the Treasure Chest!</p>
+
+            <div class="treasure">
+              <img src="Treasure Chest (closed).png">
+              <h2>Hidden Treasure</h2>
+              <p>Discover the Magic!</p>
+              [{(WoW)}]
+            </div>
+    </body>
+</html>

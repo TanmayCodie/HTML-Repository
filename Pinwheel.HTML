@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Pinwheel</title>
+
+        <style>
+            body {
+                background: linear-gradient(lightpink, lightblue);
+                text-align: center;
+                min-height: 100vh;
+            }
+
+            h1 {
+                color: purple;
+            }
+
+            .pinwheel {
+                width: 250px;
+                margin: 50px auto;
+            }
+
+            .pinwheel img {
+                width: 250px;
+                height: 250px;
+                object-fit: contain;
+                transition: 2s;
+            }
+
+            .pinwheel img:hover {
+                transform: rotate(360deg);
+            }
+
+            h2 {
+                color: darkblue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Rainbow Spinning Pinwheel</h1>
+        <p>Hover over the Pinwheel to spin it!</p>
+
+        <div class="pinwheel">
+            <img src="Pinwheel img.png">
+        </div>
+
+        <h2>Watch the Colours Spin!</h2>
+    </body>
+</html>
